@@ -1,9 +1,8 @@
-
 from django.contrib import admin
 from django.urls import path
-from django import views
+from HectorApp import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('Dashboard/', views.Dashboard, name='Dashboard'),
+    path('dashboard/', views.dashboard, name='dashboard'),
 ]
